@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Kilian Trunk</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/javascript.js"></script>
+		<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<!--[if lte IE 8]>
+			 <link rel="stylesheet" type="text/css" href="css/simple.css" />
+		<![endif]-->
+    </head>
+    <body>
+
+        <div class="container">
+		
+			<!--/ Codrops top bar -->
+		
+			<div class="st-container">
+			
+				<input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
+				<a href="#st-panel-1">KILIAN TRUNK</a>
+				<input type="radio" name="radio-set" id="st-control-2"/>
+				<a href="#st-panel-2">WHO AM I?</a>
+				<input type="radio" name="radio-set" id="st-control-3"/>
+				<a href="#st-panel-3">CODING SKILLS</a>
+				<input type="radio" name="radio-set" id="st-control-4"/>
+				<a href="#st-panel-4">PORTFOLIO</a>
+				<input type="radio" name="radio-set" id="st-control-5"/>
+				<a href="#st-panel-5">CONTACT</a>
+				
+				<div class="st-scroll">
+				
+					<!-- Placeholder text from http://hipsteripsum.me/ -->
+
+					<section class="st-panel" id="st-panel-1">
+						<img src="images/logoImage.png" alt="Logo" class="centerimg">
+						<h2>KILIAN TRUNK</h2>
+						<p>REALLY AWESOME <del>SUPER MAN</del> <span style="color: #00ffae">FRONT END DEVELOPER</span></p>
+					</section>
+					
+					<section class="st-panel st-color" id="st-panel-2">
+						<h2>Who am I?</h2>
+						<p>16 year old Front End Developer <br>
+							from Slovenia (Europe)<br>
+							that loves coding<br>
+							as well as<br>
+							designing web pages.</p>
+					</section>
+					
+					<section class="st-panel" id="st-panel-3">
+						<h2>CODING SKILLS</h2>
+						<p>Entry-level:<br>- HTML <br> - CSS <br> - C++ <br> - JavaScript / jQuery <br> + more</h3></p>
+					</section>
+					
+					<section class="st-panel st-color" id="st-panel-4">
+						<h2>PORTFOLIO</h2>
+						<p><a style="
+  background-color: white;
+  color: #00ffae;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;"
+href="https://www.behance.net/kiliantrunk" target="_blank">Click me</a></p>               
+					</section>
+					
+					<section class="st-panel" id="st-panel-5">
+						<h2>CONTACT</h2>
+						<p><a style="
+  background-color: #00ffae;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;"
+href="mailto:kilian.trunk27@gmail.com" target="_blank">Click me</a></p>
+					</section>
+					
+
+				</div><!-- // st-scroll -->
+				
+			</div><!-- // st-container -->
+			
+        </div>
+	</body>
+</html>
